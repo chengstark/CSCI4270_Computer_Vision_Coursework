@@ -1,0 +1,63 @@
+Using device: cuda
+Loading image rescaled to 36
+Size of training set: 3200
+Size of validation set: 800
+Size of testing set: 1000
+ConvNet_simple(
+  (conv1): Conv2d(3, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (relu1): ReLU()
+  (fc): Linear(in_features=15552, out_features=5, bias=True)
+)Model has 4 params
+Using SGD optimizer, Loss: CrossEntropyLoss, learning rate set at : 0.05
+Training started with 50 scheduled epochs, batch size 32
+Epoch: 0 Train Loss: 3.6252281033992766 Train Acc: 0.515625 Valid Loss: 1.1156512415409088 Valid Acc: 0.645
+Epoch: 1 Train Loss: 0.9803769311308861 Train Acc: 0.6540625 Valid Loss: 0.9159757924079895 Valid Acc: 0.67625
+Epoch: 2 Train Loss: 0.9218311125040054 Train Acc: 0.675 Valid Loss: 0.8454248631000518 Valid Acc: 0.74
+Epoch: 3 Train Loss: 0.8311133053898812 Train Acc: 0.711875 Valid Loss: 0.8233212387561798 Valid Acc: 0.7075
+Epoch: 4 Train Loss: 0.9372754400968552 Train Acc: 0.698125 Valid Loss: 0.7890439987182617 Valid Acc: 0.71875
+Epoch: 5 Train Loss: 0.8414380431175232 Train Acc: 0.7025 Valid Loss: 0.818911120891571 Valid Acc: 0.69875
+Epoch: 6 Train Loss: 0.8015745687484741 Train Acc: 0.718125 Valid Loss: 0.7745205020904541 Valid Acc: 0.74625
+Epoch: 7 Train Loss: 0.7659732937812805 Train Acc: 0.73 Valid Loss: 0.7836444592475891 Valid Acc: 0.70875
+Epoch: 8 Train Loss: 0.7597253251075745 Train Acc: 0.725625 Valid Loss: 0.9186120700836181 Valid Acc: 0.675
+Epoch: 9 Train Loss: 0.7690065386891365 Train Acc: 0.74 Valid Loss: 0.8392701721191407 Valid Acc: 0.7225
+Epoch: 10 Train Loss: 0.744143702685833 Train Acc: 0.7259375 Valid Loss: 0.8098875331878662 Valid Acc: 0.7375
+Epoch: 11 Train Loss: 0.7772707715630531 Train Acc: 0.7334375 Valid Loss: 0.7317081785202026 Valid Acc: 0.745
+Epoch: 12 Train Loss: 0.7559947508573532 Train Acc: 0.7390625 Valid Loss: 0.8014706611633301 Valid Acc: 0.73125
+Epoch: 13 Train Loss: 0.7667376264929772 Train Acc: 0.735 Valid Loss: 0.7604489088058471 Valid Acc: 0.75375
+Epoch: 14 Train Loss: 0.7349690321087837 Train Acc: 0.739375 Valid Loss: 0.7779279232025147 Valid Acc: 0.7175
+Epoch: 15 Train Loss: 0.7288364228606224 Train Acc: 0.7409375 Valid Loss: 0.7307889533042907 Valid Acc: 0.7625
+Epoch: 16 Train Loss: 0.727872347831726 Train Acc: 0.744375 Valid Loss: 0.8657432317733764 Valid Acc: 0.6625
+Epoch: 17 Train Loss: 0.7235437920689582 Train Acc: 0.735625 Valid Loss: 0.7378601408004761 Valid Acc: 0.72
+Epoch: 18 Train Loss: 1.6274422916769982 Train Acc: 0.6934375 Valid Loss: 0.8483446311950683 Valid Acc: 0.7
+Epoch: 19 Train Loss: 0.7750337964296341 Train Acc: 0.735 Valid Loss: 0.7385976660251617 Valid Acc: 0.75
+Epoch: 20 Train Loss: 0.7433779144287109 Train Acc: 0.7475 Valid Loss: 0.7695919179916382 Valid Acc: 0.74
+Epoch: 21 Train Loss: 0.7455857607722283 Train Acc: 0.7371875 Valid Loss: 0.7219706487655639 Valid Acc: 0.7675
+Epoch: 22 Train Loss: 0.7199877023696899 Train Acc: 0.743125 Valid Loss: 0.7107495617866516 Valid Acc: 0.74625
+Epoch: 23 Train Loss: 0.940824955701828 Train Acc: 0.7275 Valid Loss: 0.6780662369728089 Valid Acc: 0.7625
+Epoch: 24 Train Loss: 0.7699571037292481 Train Acc: 0.73375 Valid Loss: 0.7926790237426757 Valid Acc: 0.7325
+Epoch: 25 Train Loss: 0.745263682603836 Train Acc: 0.73375 Valid Loss: 0.7330318915843964 Valid Acc: 0.71125
+Epoch: 26 Train Loss: 0.7196164309978486 Train Acc: 0.7440625 Valid Loss: 0.6739151120185852 Valid Acc: 0.77
+Epoch: 27 Train Loss: 0.7545706117153168 Train Acc: 0.7359375 Valid Loss: 0.6813877356052399 Valid Acc: 0.77125
+Epoch: 28 Train Loss: 0.7171130147576332 Train Acc: 0.7575 Valid Loss: 0.8193378043174744 Valid Acc: 0.705
+Epoch: 29 Train Loss: 0.6949698868393898 Train Acc: 0.74875 Valid Loss: 0.6669638872146606 Valid Acc: 0.78375
+Epoch: 30 Train Loss: 0.7768955180048942 Train Acc: 0.7396875 Valid Loss: 1.046178665161133 Valid Acc: 0.66375
+Epoch: 31 Train Loss: 0.7491809773445129 Train Acc: 0.736875 Valid Loss: 0.683447595834732 Valid Acc: 0.76125
+Epoch: 32 Train Loss: 0.6989915511012077 Train Acc: 0.75375 Valid Loss: 0.7303850793838501 Valid Acc: 0.76375
+Epoch: 33 Train Loss: 0.7149272617697716 Train Acc: 0.7565625 Valid Loss: 0.7102910077571869 Valid Acc: 0.75875
+Epoch: 34 Train Loss: 0.6902543121576309 Train Acc: 0.7490625 Valid Loss: 0.6911700451374054 Valid Acc: 0.765
+Epoch: 35 Train Loss: 0.7148156529664993 Train Acc: 0.7471875 Valid Loss: 0.7215716397762298 Valid Acc: 0.75
+Epoch: 36 Train Loss: 0.7074098962545395 Train Acc: 0.7471875 Valid Loss: 0.7658540439605713 Valid Acc: 0.75
+Epoch: 37 Train Loss: 0.7088562446832657 Train Acc: 0.7428125 Valid Loss: 0.73148521900177 Valid Acc: 0.73
+Epoch: 38 Train Loss: 0.6996730861067771 Train Acc: 0.7596875 Valid Loss: 0.8449146270751953 Valid Acc: 0.6725
+Epoch: 39 Train Loss: 0.6837790215015411 Train Acc: 0.7628125 Valid Loss: 0.827566556930542 Valid Acc: 0.71625
+Epoch: 40 Train Loss: 0.7089908766746521 Train Acc: 0.7603125 Valid Loss: 0.7266872453689576 Valid Acc: 0.7425
+Epoch: 41 Train Loss: 0.7950164952874184 Train Acc: 0.7278125 Valid Loss: 0.6823304378986359 Valid Acc: 0.78875
+Epoch: 42 Train Loss: 0.7112164452672005 Train Acc: 0.7509375 Valid Loss: 0.6721236050128937 Valid Acc: 0.75
+Epoch: 43 Train Loss: 0.6598029832541943 Train Acc: 0.774375 Valid Loss: 0.6909393382072448 Valid Acc: 0.75875
+Epoch: 44 Train Loss: 0.6744807252287864 Train Acc: 0.7553125 Valid Loss: 0.7295843553543091 Valid Acc: 0.76125
+Epoch: 45 Train Loss: 0.6679722392559051 Train Acc: 0.7696875 Valid Loss: 0.6433347976207733 Valid Acc: 0.76875
+Epoch: 46 Train Loss: 0.6902882519364357 Train Acc: 0.7621875 Valid Loss: 0.715552932024002 Valid Acc: 0.76125
+Epoch: 47 Train Loss: 0.6892099195718765 Train Acc: 0.75625 Valid Loss: 0.6523099589347839 Valid Acc: 0.77
+Epoch: 48 Train Loss: 0.6380299025774002 Train Acc: 0.768125 Valid Loss: 0.7176786696910858 Valid Acc: 0.7475
+Epoch: 49 Train Loss: 0.952460412979126 Train Acc: 0.71625 Valid Loss: 0.7111323189735412 Valid Acc: 0.7525
+Test Loss: 0.7770355697721243 Test Acc: 0.7421875
