@@ -1,7 +1,7 @@
 # Computer_Vision_Coursework
 CSCI4270_Computer_Vision_Coursework
 
-# Coursework showcase
+# Some showcase
 - Image stiching
 ![Stich](https://raw.githubusercontent.com/chengstark/CSCI4270_Computer_Vision_Coursework/main/hw5/results/tree-mrc/multi-mosaic/mosaics/multi-mosiac.jpg)
 - Traffic object detection
