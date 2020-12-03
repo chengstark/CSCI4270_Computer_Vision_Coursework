@@ -1,0 +1,11 @@
+Matrix: H_21
+0.343, -0.284, 786.595
+-0.024, 0.194, 617.468
+-0.000, -0.000, 0.637
+Upper left: 865.1 -1281.1
+Lower right: 6875.9 9406.7
+H_21 overlap count 313
+H_21 overlap fraction 0.782
+H_12 overlap count 278
+H_12 overlap fraction 0.695
+Image 2 center direction: (-0.027, -0.040, 0.999)

@@ -1,0 +1,8 @@
+min: (0.520,1.201)
+max: (48.233,54.608)
+com: (30.279,22.690)
+min axis: (0.591,0.807), sd 5.202
+max axis: (0.807,-0.591), sd 11.698
+closest point: rho 36.195, theta 0.939
+implicit: a 0.591, b 0.807, c -36.195
+best as line

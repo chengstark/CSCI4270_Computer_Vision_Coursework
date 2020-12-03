@@ -1,0 +1,21 @@
+
+Points on seam 0:
+vertical
+0, 109
+135, 116
+269, 125
+Energy of seam 0: 12.20
+
+Points on seam 1:
+vertical
+0, 154
+135, 130
+269, 146
+Energy of seam 1: 12.43
+
+Points on seam 229:
+vertical
+0, 230
+135, 171
+269, 95
+Energy of seam 229: 21.71

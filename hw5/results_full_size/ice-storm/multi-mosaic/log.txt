@@ -1,0 +1,33 @@
+reading directory: images/ice-storm
+Loaded images: ['image1.JPG', 'image2.JPG']
+
+checking match and calculating homography matrix for image1.JPG and image2.JPG
+Before ratio test, there are 1989 match points
+After ratio test, there are 421 match points
+Written side by side match image to matches/image1_image2_aft_ratio.jpg
+Written side by side match image to matches/image1_image2_aft_funda.jpg
+After calculate fundamental matrix test, there are 399 match points
+	After calculate fundamental matrix, the amount of match points is bigger than 75% of that at previous step
+Written side by side match image to matches/image1_image2_aft_homo.jpg
+After calculate homography matrix test, there are 399 match points
+	After calculate homography matrix, the amount of match points is bigger than 75% of that at previous step
+image1.JPG and image2.JPG are matched
+
+Generating multi image mosaic
+We have multi-image matches, follows PATH: ['image1.JPG', 'image2.JPG']
+
+checking match and calculating homography matrix for image1.JPG and image2.JPG
+Before ratio test, there are 1989 match points
+After ratio test, there are 421 match points
+Written side by side match image to matches/image1_image2_aft_ratio.jpg
+Written side by side match image to matches/image1_image2_aft_funda.jpg
+After calculate fundamental matrix test, there are 399 match points
+	After calculate fundamental matrix, the amount of match points is bigger than 75% of that at previous step
+Written side by side match image to matches/image1_image2_aft_homo.jpg
+After calculate homography matrix test, there are 399 match points
+	After calculate homography matrix, the amount of match points is bigger than 75% of that at previous step
+image1.JPG and image2.JPG are matched
+Offsets are offset_x: 0, offset_y: 188
+Generated warp perspective
+
+multi-image mosaic is written to mosaics/multi-mosiac.jpg

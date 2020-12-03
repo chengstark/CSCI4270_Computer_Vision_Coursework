@@ -1,0 +1,40 @@
+reading directory: hw5_new
+Loaded images: ['IMG_4013_sm.jpg', 'IMG_4009_sm.jpg', 'IMG_4008_sm.jpg']
+
+checking match and calculating homography matrix for IMG_4013_sm.jpg and IMG_4009_sm.jpg
+Before ratio test, there are 1462 match points
+After ratio test, there are 83 match points
+Written side by side match image to tmp/IMG_4013_sm_IMG_4009_sm_aft_ratio.jpg
+Written side by side match image to tmp/IMG_4013_sm_IMG_4009_sm_aft_funda.jpg
+After calculate fundamental matrix test, there are 30 match points
+	After calculate fundamental matrix, the amount of match points is smaller than 75% of that at previous step
+Written side by side match image to tmp/IMG_4013_sm_IMG_4009_sm_aft_homo.jpg
+After calculate homography matrix test, there are 14 match points
+	After calculate homography matrix, the amount of match points is smaller than 75% of that at previous step
+IMG_4013_sm.jpg and IMG_4009_sm.jpg are not matched
+
+checking match and calculating homography matrix for IMG_4013_sm.jpg and IMG_4008_sm.jpg
+Before ratio test, there are 1462 match points
+After ratio test, there are 217 match points
+Written side by side match image to tmp/IMG_4013_sm_IMG_4008_sm_aft_ratio.jpg
+Written side by side match image to tmp/IMG_4013_sm_IMG_4008_sm_aft_funda.jpg
+After calculate fundamental matrix test, there are 126 match points
+	After calculate fundamental matrix, the amount of match points is smaller than 75% of that at previous step
+Written side by side match image to tmp/IMG_4013_sm_IMG_4008_sm_aft_homo.jpg
+After calculate homography matrix test, there are 93 match points
+	After calculate homography matrix, the amount of match points is smaller than 75% of that at previous step
+IMG_4013_sm.jpg and IMG_4008_sm.jpg are not matched
+
+checking match and calculating homography matrix for IMG_4009_sm.jpg and IMG_4008_sm.jpg
+Before ratio test, there are 1990 match points
+After ratio test, there are 135 match points
+Written side by side match image to tmp/IMG_4009_sm_IMG_4008_sm_aft_ratio.jpg
+Written side by side match image to tmp/IMG_4009_sm_IMG_4008_sm_aft_funda.jpg
+After calculate fundamental matrix test, there are 102 match points
+	After calculate fundamental matrix, the amount of match points is bigger than 75% of that at previous step
+Written side by side match image to tmp/IMG_4009_sm_IMG_4008_sm_aft_homo.jpg
+After calculate homography matrix test, there are 37 match points
+	After calculate homography matrix, the amount of match points is smaller than 75% of that at previous step
+IMG_4009_sm.jpg and IMG_4008_sm.jpg are not matched
+Generating multi image mosaic
+We do not any matches

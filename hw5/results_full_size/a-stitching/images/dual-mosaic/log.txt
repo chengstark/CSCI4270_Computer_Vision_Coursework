@@ -1,0 +1,32 @@
+reading directory: panorama-stitching/images
+Loaded images: ['bryce_right_02.png', 'bryce_left_02.png']
+
+checking match and calculating homography matrix for bryce_right_02.png and bryce_left_02.png
+Before ratio test, there are 8936 match points
+After ratio test, there are 1708 match points
+Written side by side match image to matches/bryce_right_02_bryce_left_02_aft_ratio.jpg
+Written side by side match image to matches/bryce_right_02_bryce_left_02_aft_funda.jpg
+After calculate fundamental matrix test, there are 1690 match points
+	After calculate fundamental matrix, the amount of match points is bigger than 75% of that at previous step
+Written side by side match image to matches/bryce_right_02_bryce_left_02_aft_homo.jpg
+After calculate homography matrix test, there are 1626 match points
+	After calculate homography matrix, the amount of match points is bigger than 75% of that at previous step
+bryce_right_02.png and bryce_left_02.png are matched
+
+Generating dual image mosaic
+
+checking match and calculating homography matrix for bryce_right_02.png and bryce_left_02.png
+Before ratio test, there are 8936 match points
+After ratio test, there are 1708 match points
+Written side by side match image to matches/bryce_right_02_bryce_left_02_aft_ratio.jpg
+Written side by side match image to matches/bryce_right_02_bryce_left_02_aft_funda.jpg
+After calculate fundamental matrix test, there are 1690 match points
+	After calculate fundamental matrix, the amount of match points is bigger than 75% of that at previous step
+Written side by side match image to matches/bryce_right_02_bryce_left_02_aft_homo.jpg
+After calculate homography matrix test, there are 1626 match points
+	After calculate homography matrix, the amount of match points is bigger than 75% of that at previous step
+bryce_right_02.png and bryce_left_02.png are matched
+Offsets are offset_x: 760, offset_y: 59
+Generated warp perspective
+dual-image mosaic of bryce_right_02 and bryce_left_02 is written to mosaics/bryce_right_02_bryce_left_02.jpg
+

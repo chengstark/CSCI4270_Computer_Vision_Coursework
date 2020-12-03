@@ -1,0 +1,56 @@
+reading directory: images/office2
+Loaded images: ['IMG2536.JPG', 'IMG2537.JPG', 'IMG2538.JPG']
+
+checking match and calculating homography matrix for IMG2536.JPG and IMG2537.JPG
+Before ratio test, there are 685 match points
+After ratio test, there are 230 match points
+Written side by side match image to matches/IMG2536_IMG2537_aft_ratio.jpg
+Written side by side match image to matches/IMG2536_IMG2537_aft_funda.jpg
+After calculate fundamental matrix test, there are 208 match points
+	After calculate fundamental matrix, the amount of match points is bigger than 75% of that at previous step
+Written side by side match image to matches/IMG2536_IMG2537_aft_homo.jpg
+After calculate homography matrix test, there are 205 match points
+	After calculate homography matrix, the amount of match points is bigger than 75% of that at previous step
+IMG2536.JPG and IMG2537.JPG are matched
+
+
+checking match and calculating homography matrix for IMG2536.JPG and IMG2538.JPG
+Before ratio test, there are 685 match points
+After ratio test, there are 124 match points
+Written side by side match image to matches/IMG2536_IMG2538_aft_ratio.jpg
+Written side by side match image to matches/IMG2536_IMG2538_aft_funda.jpg
+After calculate fundamental matrix test, there are 90 match points
+	After calculate fundamental matrix, the amount of match points is smaller than 75% of that at previous step
+Written side by side match image to matches/IMG2536_IMG2538_aft_homo.jpg
+After calculate homography matrix test, there are 55 match points
+	After calculate homography matrix, the amount of match points is smaller than 75% of that at previous step
+IMG2536.JPG and IMG2538.JPG are not matched
+
+checking match and calculating homography matrix for IMG2537.JPG and IMG2538.JPG
+Before ratio test, there are 611 match points
+After ratio test, there are 97 match points
+Written side by side match image to matches/IMG2537_IMG2538_aft_ratio.jpg
+Written side by side match image to matches/IMG2537_IMG2538_aft_funda.jpg
+After calculate fundamental matrix test, there are 71 match points
+	After calculate fundamental matrix, the amount of match points is smaller than 75% of that at previous step
+Written side by side match image to matches/IMG2537_IMG2538_aft_homo.jpg
+After calculate homography matrix test, there are 45 match points
+	After calculate homography matrix, the amount of match points is smaller than 75% of that at previous step
+IMG2537.JPG and IMG2538.JPG are not matched
+Generating dual image mosaic
+
+checking match and calculating homography matrix for IMG2536.JPG and IMG2537.JPG
+Before ratio test, there are 685 match points
+After ratio test, there are 230 match points
+Written side by side match image to matches/IMG2536_IMG2537_aft_ratio.jpg
+Written side by side match image to matches/IMG2536_IMG2537_aft_funda.jpg
+After calculate fundamental matrix test, there are 208 match points
+	After calculate fundamental matrix, the amount of match points is bigger than 75% of that at previous step
+Written side by side match image to matches/IMG2536_IMG2537_aft_homo.jpg
+After calculate homography matrix test, there are 205 match points
+	After calculate homography matrix, the amount of match points is bigger than 75% of that at previous step
+IMG2536.JPG and IMG2537.JPG are matched
+Offsets are offset_x: 0, offset_y: 32
+Generated warp perspective
+dual-image mosaic of IMG2536 and IMG2537 is written to mosaics/IMG2536_IMG2537.jpg
+

@@ -1,0 +1,3 @@
+python ../sol/p1_compare.py 2 wisconsin.jpg -p > p1_wisconsin_out.txt
+python ../sol/p2_orientation.py 2 wisconsin.jpg wisconsin_pts.txt > p2_wisconsin_out.txt
+python ../sol/p3_mapping.py p3_v1_input.txt > p3_v1_output.txt

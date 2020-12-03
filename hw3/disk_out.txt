@@ -1,0 +1,1 @@
+Number after non-maximum: 625Number after 1.0 threshold: 593mu: 76.26s: 3.82Threshold: 30.00Number after threshold: 593

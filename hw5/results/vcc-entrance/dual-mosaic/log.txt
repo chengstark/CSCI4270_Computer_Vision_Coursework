@@ -1,0 +1,56 @@
+reading directory: images/vcc-entrance
+Loaded images: ['image1.JPG', 'image2.JPG', 'image3.JPG']
+
+checking match and calculating homography matrix for image1.JPG and image2.JPG
+Before ratio test, there are 2336 match points
+After ratio test, there are 896 match points
+Written side by side match image to matches/image1_image2_aft_ratio.jpg
+Written side by side match image to matches/image1_image2_aft_funda.jpg
+After calculate fundamental matrix test, there are 840 match points
+	After calculate fundamental matrix, the amount of match points is bigger than 75% of that at previous step
+Written side by side match image to matches/image1_image2_aft_homo.jpg
+After calculate homography matrix test, there are 555 match points
+	After calculate homography matrix, the amount of match points is smaller than 75% of that at previous step
+image1.JPG and image2.JPG are not matched
+
+checking match and calculating homography matrix for image1.JPG and image3.JPG
+Before ratio test, there are 2336 match points
+After ratio test, there are 73 match points
+Written side by side match image to matches/image1_image3_aft_ratio.jpg
+Written side by side match image to matches/image1_image3_aft_funda.jpg
+After calculate fundamental matrix test, there are 35 match points
+	After calculate fundamental matrix, the amount of match points is smaller than 75% of that at previous step
+Written side by side match image to matches/image1_image3_aft_homo.jpg
+After calculate homography matrix test, there are 23 match points
+	After calculate homography matrix, the amount of match points is smaller than 75% of that at previous step
+image1.JPG and image3.JPG are not matched
+
+checking match and calculating homography matrix for image2.JPG and image3.JPG
+Before ratio test, there are 4455 match points
+After ratio test, there are 143 match points
+Written side by side match image to matches/image2_image3_aft_ratio.jpg
+Written side by side match image to matches/image2_image3_aft_funda.jpg
+After calculate fundamental matrix test, there are 82 match points
+	After calculate fundamental matrix, the amount of match points is smaller than 75% of that at previous step
+Written side by side match image to matches/image2_image3_aft_homo.jpg
+After calculate homography matrix test, there are 63 match points
+	After calculate homography matrix, the amount of match points is bigger than 75% of that at previous step
+image2.JPG and image3.JPG are matched
+
+Generating dual image mosaic
+
+checking match and calculating homography matrix for image2.JPG and image3.JPG
+Before ratio test, there are 4455 match points
+After ratio test, there are 143 match points
+Written side by side match image to matches/image2_image3_aft_ratio.jpg
+Written side by side match image to matches/image2_image3_aft_funda.jpg
+After calculate fundamental matrix test, there are 82 match points
+	After calculate fundamental matrix, the amount of match points is smaller than 75% of that at previous step
+Written side by side match image to matches/image2_image3_aft_homo.jpg
+After calculate homography matrix test, there are 63 match points
+	After calculate homography matrix, the amount of match points is bigger than 75% of that at previous step
+image2.JPG and image3.JPG are matched
+Offsets are offset_x: 0, offset_y: 0
+Generated warp perspective
+dual-image mosaic of image2 and image3 is written to mosaics/image2_image3.jpg
+

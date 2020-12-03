@@ -1,0 +1,2 @@
+ Point 0:   (322.0,189.0)
+Histograms:
